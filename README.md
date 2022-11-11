@@ -71,13 +71,13 @@ body:
 [GET] get product with searching
 
 ```
-/products/a?search=Ni
+/products/a?search=a
 ```
 
 [POST] insert product
 
 ```
-/products
+/product
 ```
 
 body:
@@ -87,14 +87,14 @@ body:
     "name": "Adidas",
     "stock": 100,
     "price": 200000,
-    "categories_id": 1
+    "category_id": 1
 }
 ```
 
 [PUT] update product
 
 ```
-/products/3
+/product/3
 ```
 
 body:
@@ -138,7 +138,7 @@ body:
 ```
 {
     "customers_id": 1,
-    "products_id": 4,
+    "product_id": 4,
     "amount": 30,
     "total": 30000,
     "status_id": 2
@@ -154,7 +154,7 @@ body:
 ```
 {
     "customers_id": 2,
-    "products_id": 3,
+    "product_id": 3,
     "amount": 3,
     "total": 30000,
     "status_id": 2
@@ -171,7 +171,7 @@ body:
 ```
 {
     "customers_id": 2,
-    "products_id": 3,
+    "product_id": 3,
     "amount": 3,
     "total": 30000,
     "status_id": 2
